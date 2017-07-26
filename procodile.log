@@ -1,0 +1,954 @@
+[m09:05:14 system          | [0mProcodile supervisor started with PID 20753
+[m09:05:14 system          | [0mReloading configuration
+[35m09:05:14 web.1           | [0mStarted with PID 20759
+[m09:05:14 control         | [0mListening at /home/deploy/custore/pids/procodile.sock
+[35m09:05:15 web.1           | [0m[35m=> [0mconfig/puma.rb:2:in `_load_from': undefined method `rkers' for #<Puma::DSL:0x00000002c95f20> (NoMethodError)
+[35m09:05:15 web.1           | [0m[35m=> [0mDid you mean?  workers
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:26:in `instance_eval'
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:26:in `_load_from'
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:9:in `load'
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:205:in `block in load'
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:202:in `each'
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:202:in `load'
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/launcher.rb:62:in `initialize'
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/cli.rb:65:in `new'
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/cli.rb:65:in `initialize'
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/bin/puma:8:in `new'
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/bin/puma:8:in `<top (required)>'
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/puma:23:in `load'
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/puma:23:in `<main>'
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+[35m09:05:15 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+[35m09:05:17 web.1           | [0mProcess has stopped. Respawning...
+[35m09:05:17 web.1           | [0mStarted with PID 20764
+[35m09:05:17 web.1           | [0m[35m=> [0mconfig/puma.rb:2:in `_load_from': undefined method `rkers' for #<Puma::DSL:0x00000002d41b68> (NoMethodError)
+[35m09:05:17 web.1           | [0m[35m=> [0mDid you mean?  workers
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:26:in `instance_eval'
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:26:in `_load_from'
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:9:in `load'
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:205:in `block in load'
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:202:in `each'
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:202:in `load'
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/launcher.rb:62:in `initialize'
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/cli.rb:65:in `new'
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/cli.rb:65:in `initialize'
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/bin/puma:8:in `new'
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/bin/puma:8:in `<top (required)>'
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/puma:23:in `load'
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/puma:23:in `<main>'
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+[35m09:05:17 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+[35m09:05:20 web.1           | [0mProcess has stopped. Respawning...
+[35m09:05:20 web.1           | [0mStarted with PID 20771
+[35m09:05:21 web.1           | [0m[35m=> [0mconfig/puma.rb:2:in `_load_from': undefined method `rkers' for #<Puma::DSL:0x00000001c35b80> (NoMethodError)
+[35m09:05:21 web.1           | [0m[35m=> [0mDid you mean?  workers
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:26:in `instance_eval'
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:26:in `_load_from'
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:9:in `load'
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:205:in `block in load'
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:202:in `each'
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:202:in `load'
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/launcher.rb:62:in `initialize'
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/cli.rb:65:in `new'
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/cli.rb:65:in `initialize'
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/bin/puma:8:in `new'
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/bin/puma:8:in `<top (required)>'
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/puma:23:in `load'
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/puma:23:in `<main>'
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+[35m09:05:21 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+[35m09:05:23 web.1           | [0mProcess has stopped. Respawning...
+[35m09:05:23 web.1           | [0mStarted with PID 20779
+[35m09:05:23 web.1           | [0m[35m=> [0mconfig/puma.rb:2:in `_load_from': undefined method `rkers' for #<Puma::DSL:0x00000001e9e2a0> (NoMethodError)
+[35m09:05:23 web.1           | [0m[35m=> [0mDid you mean?  workers
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:26:in `instance_eval'
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:26:in `_load_from'
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:9:in `load'
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:205:in `block in load'
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:202:in `each'
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:202:in `load'
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/launcher.rb:62:in `initialize'
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/cli.rb:65:in `new'
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/cli.rb:65:in `initialize'
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/bin/puma:8:in `new'
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/bin/puma:8:in `<top (required)>'
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/puma:23:in `load'
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/puma:23:in `<main>'
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+[35m09:05:23 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+[35m09:05:26 web.1           | [0mProcess has stopped. Respawning...
+[35m09:05:26 web.1           | [0mStarted with PID 20785
+[35m09:05:27 web.1           | [0m[35m=> [0mconfig/puma.rb:2:in `_load_from': undefined method `rkers' for #<Puma::DSL:0x00000002e0fd88> (NoMethodError)
+[35m09:05:27 web.1           | [0m[35m=> [0mDid you mean?  workers
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:26:in `instance_eval'
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:26:in `_load_from'
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:9:in `load'
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:205:in `block in load'
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:202:in `each'
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:202:in `load'
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/launcher.rb:62:in `initialize'
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/cli.rb:65:in `new'
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/cli.rb:65:in `initialize'
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/bin/puma:8:in `new'
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/bin/puma:8:in `<top (required)>'
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/puma:23:in `load'
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/puma:23:in `<main>'
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+[35m09:05:27 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+[35m09:05:29 web.1           | [0mProcess has stopped. Respawning...
+[35m09:05:29 web.1           | [0mStarted with PID 20791
+[35m09:05:29 web.1           | [0m[35m=> [0mconfig/puma.rb:2:in `_load_from': undefined method `rkers' for #<Puma::DSL:0x00000002ca7d88> (NoMethodError)
+[35m09:05:29 web.1           | [0m[35m=> [0mDid you mean?  workers
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:26:in `instance_eval'
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:26:in `_load_from'
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/dsl.rb:9:in `load'
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:205:in `block in load'
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:202:in `each'
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:202:in `load'
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/launcher.rb:62:in `initialize'
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/cli.rb:65:in `new'
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/lib/puma/cli.rb:65:in `initialize'
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/bin/puma:8:in `new'
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.6.2/bin/puma:8:in `<top (required)>'
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/puma:23:in `load'
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/puma:23:in `<main>'
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+[35m09:05:29 web.1           | [0m[35m=> [0m	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+[35m09:05:32 web.1           | [0m[41;37mWarning:[0m[31m this process has been respawned 5 times and keeps dying.[0m
+[35m09:05:32 web.1           | [0m[31mIt will not be respawned automatically any longer and will no longer be managed.[0m
+[35m09:05:32 web.1           | [0mRemoved PID file
+[m09:05:32 system          | [0mReloading configuration
+[m09:05:32 system          | [0mStopping all Procodile processes
+[35m09:05:32 web.1           | [0mProcess already stopped
+[35m09:05:35 web.1           | [0mRemoved PID file
+[m09:13:22 system          | [0mReloading configuration
+[35m09:13:23 web.2           | [0mStarted with PID 20892
+[35m09:13:23 web.2           | [0m[35m=> [0m[20892] Puma starting in cluster mode...
+[35m09:13:23 web.2           | [0m[35m=> [0m[20892] * Version 3.6.2 (ruby 2.3.0-p0), codename: Sleepy Sunday Serenity
+[35m09:13:23 web.2           | [0m[35m=> [0m[20892] * Min threads: 1, max threads: 1
+[35m09:13:23 web.2           | [0m[35m=> [0m[20892] * Environment: production
+[35m09:13:23 web.2           | [0m[35m=> [0m[20892] * Process workers: 1
+[35m09:13:23 web.2           | [0m[35m=> [0m[20892] * Preloading application
+[35m09:13:29 web.2           | [0m[35m=> [0m[20892] * Listening on tcp://0.0.0.0:9294
+[35m09:13:29 web.2           | [0m[35m=> [0m[20892] Use Ctrl-C to stop
+[35m09:13:29 web.2           | [0m[35m=> [0m[20892] - Worker 0 (pid: 20899) booted, phase: 0
+[m09:16:42 system          | [0mReloading configuration
+[m09:16:42 system          | [0mStopping all Procodile processes
+[35m09:16:42 web.2           | [0mSending TERM to 20892
+[35m09:16:42 web.2           | [0m[35m=> [0m[20892] - Gracefully shutting down workers...
+[35m09:16:42 web.2           | [0m[35m=> [0m[20892] === puma shutdown: 2016-12-03 09:16:42 +0000 ===
+[35m09:16:42 web.2           | [0m[35m=> [0m[20892] - Goodbye!
+[35m09:16:44 web.2           | [0mRemoved PID file
+[m09:16:46 system          | [0mReloading configuration
+[35m09:16:46 web.3           | [0mStarted with PID 21010
+[35m09:16:46 web.3           | [0m[35m=> [0m[21010] Puma starting in cluster mode...
+[35m09:16:46 web.3           | [0m[35m=> [0m[21010] * Version 3.6.2 (ruby 2.3.0-p0), codename: Sleepy Sunday Serenity
+[35m09:16:46 web.3           | [0m[35m=> [0m[21010] * Min threads: 1, max threads: 1
+[35m09:16:46 web.3           | [0m[35m=> [0m[21010] * Environment: production
+[35m09:16:46 web.3           | [0m[35m=> [0m[21010] * Process workers: 1
+[35m09:16:46 web.3           | [0m[35m=> [0m[21010] * Preloading application
+[35m09:16:49 web.3           | [0m[35m=> [0m[21010] * Listening on tcp://0.0.0.0:9294
+[35m09:16:49 web.3           | [0m[35m=> [0m[21010] Use Ctrl-C to stop
+[35m09:16:49 web.3           | [0m[35m=> [0m[21010] - Worker 0 (pid: 21016) booted, phase: 0
+[m09:20:48 system          | [0mReloading configuration
+[m09:20:48 system          | [0mStopping all Procodile processes
+[35m09:20:48 web.3           | [0mSending TERM to 21010
+[35m09:20:48 web.3           | [0m[35m=> [0m[21010] - Gracefully shutting down workers...
+[35m09:20:51 web.3           | [0m[35m=> [0m[21010] === puma shutdown: 2016-12-03 09:20:51 +0000 ===
+[35m09:20:51 web.3           | [0m[35m=> [0m[21010] - Goodbye!
+[35m09:20:56 web.3           | [0mRemoved PID file
+[m09:25:47 system          | [0mReloading configuration
+[35m09:25:47 web.4           | [0mStarted with PID 21246
+[35m09:25:48 web.4           | [0m[35m=> [0m[21246] Puma starting in cluster mode...
+[35m09:25:48 web.4           | [0m[35m=> [0m[21246] * Version 3.6.2 (ruby 2.3.0-p0), codename: Sleepy Sunday Serenity
+[35m09:25:48 web.4           | [0m[35m=> [0m[21246] * Min threads: 1, max threads: 1
+[35m09:25:48 web.4           | [0m[35m=> [0m[21246] * Environment: production
+[35m09:25:48 web.4           | [0m[35m=> [0m[21246] * Process workers: 1
+[35m09:25:48 web.4           | [0m[35m=> [0m[21246] * Preloading application
+[35m09:25:51 web.4           | [0m[35m=> [0m[21246] * Listening on tcp://0.0.0.0:9294
+[35m09:25:51 web.4           | [0m[35m=> [0m[21246] Use Ctrl-C to stop
+[35m09:25:51 web.4           | [0m[35m=> [0m[21246] - Worker 0 (pid: 21252) booted, phase: 0
+[35m10:59:45 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 21252
+[35m11:00:50 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 12399
+[35m11:02:04 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 12415
+[35m11:03:09 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 12440
+[35m11:04:07 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 12451
+[35m11:05:09 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 12461
+[35m11:06:13 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 12471
+[35m11:07:17 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 12480
+[35m11:07:50 web.4           | [0m[35m=> [0m[21246] - Worker 0 (pid: 12489) booted, phase: 0
+[35m08:05:59 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 12489
+[35m08:07:02 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 30503
+[35m08:08:03 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 30528
+[35m08:09:06 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 30552
+[35m08:10:08 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 30573
+[35m08:11:10 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 30594
+[35m08:11:36 web.4           | [0m[35m=> [0m[21246] - Worker 0 (pid: 30620) booted, phase: 0
+[35m08:38:33 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 30620
+[35m08:39:37 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 31337
+[35m08:40:41 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 31357
+[35m08:41:43 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 31382
+[35m08:42:47 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 31409
+[35m08:43:53 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 31434
+[35m08:44:54 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 31455
+[35m08:45:55 web.4           | [0m[35m=> [0m[21246] ! Terminating timed out worker: 31478
+[35m08:46:10 web.4           | [0m[35m=> [0m[21246] - Worker 0 (pid: 31498) booted, phase: 0
+[m16:09:46 system          | [0mReloading configuration
+[m16:09:46 system          | [0mRestarting all Procodile processes
+[35m16:09:46 web.4           | [0mRestarting using term-start mode
+[35m16:09:46 web.4           | [0mSending TERM to 21246
+[35m16:09:46 web.4           | [0m[35m=> [0m[21246] - Gracefully shutting down workers...
+[35m16:09:47 web.4           | [0m[35m=> [0m[21246] === puma shutdown: 2017-02-19 16:09:47 +0000 ===
+[35m16:09:47 web.4           | [0m[35m=> [0m[21246] - Goodbye!
+[35m16:10:04 web.5           | [0mStarted with PID 21527
+[35m16:10:05 web.5           | [0m[35m=> [0m[21527] Puma starting in cluster mode...
+[35m16:10:05 web.5           | [0m[35m=> [0m[21527] * Version 3.6.2 (ruby 2.3.0-p0), codename: Sleepy Sunday Serenity
+[35m16:10:05 web.5           | [0m[35m=> [0m[21527] * Min threads: 1, max threads: 1
+[35m16:10:05 web.5           | [0m[35m=> [0m[21527] * Environment: production
+[35m16:10:05 web.5           | [0m[35m=> [0m[21527] * Process workers: 1
+[35m16:10:05 web.5           | [0m[35m=> [0m[21527] * Preloading application
+[35m16:10:07 web.4           | [0mRemoved PID file
+[35m16:10:09 web.5           | [0m[35m=> [0m[21527] * Listening on tcp://0.0.0.0:9294
+[35m16:10:09 web.5           | [0m[35m=> [0m[21527] Use Ctrl-C to stop
+[35m16:10:09 web.5           | [0m[35m=> [0m[21527] - Worker 0 (pid: 21532) booted, phase: 0
+[m16:34:44 system          | [0mReloading configuration
+[m16:34:44 system          | [0mRestarting all Procodile processes
+[35m16:34:44 web.5           | [0mRestarting using term-start mode
+[35m16:34:44 web.5           | [0mSending TERM to 21527
+[35m16:34:44 web.5           | [0m[35m=> [0m[21527] - Gracefully shutting down workers...
+[35m16:34:44 web.5           | [0m[35m=> [0m[21527] === puma shutdown: 2017-02-19 16:34:44 +0000 ===
+[35m16:34:44 web.5           | [0m[35m=> [0m[21527] - Goodbye!
+[35m16:34:45 web.6           | [0mStarted with PID 22545
+[35m16:34:46 web.6           | [0m[35m=> [0m[22545] Puma starting in cluster mode...
+[35m16:34:46 web.6           | [0m[35m=> [0m[22545] * Version 3.6.2 (ruby 2.3.0-p0), codename: Sleepy Sunday Serenity
+[35m16:34:46 web.6           | [0m[35m=> [0m[22545] * Min threads: 1, max threads: 1
+[35m16:34:46 web.6           | [0m[35m=> [0m[22545] * Environment: production
+[35m16:34:46 web.6           | [0m[35m=> [0m[22545] * Process workers: 1
+[35m16:34:46 web.6           | [0m[35m=> [0m[22545] * Preloading application
+[35m16:34:46 web.5           | [0mRemoved PID file
+[35m16:34:50 web.6           | [0m[35m=> [0m[22545] * Listening on tcp://0.0.0.0:9294
+[35m16:34:50 web.6           | [0m[35m=> [0m[22545] Use Ctrl-C to stop
+[35m16:34:50 web.6           | [0m[35m=> [0m[22545] - Worker 0 (pid: 22551) booted, phase: 0
+[m03:08:06 system          | [0mReloading configuration
+[m03:08:06 system          | [0mRestarting all Procodile processes
+[35m03:08:06 web.6           | [0mRestarting using term-start mode
+[35m03:08:06 web.6           | [0mSending TERM to 22545
+[35m03:08:06 web.6           | [0m[35m=> [0m[22545] - Gracefully shutting down workers...
+[35m03:08:09 web.6           | [0m[35m=> [0m[22545] === puma shutdown: 2017-02-22 03:08:09 +0000 ===
+[35m03:08:09 web.6           | [0m[35m=> [0m[22545] - Goodbye!
+[35m03:08:15 web.7           | [0mStarted with PID 21451
+[35m03:08:16 web.6           | [0mRemoved PID file
+[35m03:08:16 web.7           | [0m[35m=> [0m[21451] Puma starting in cluster mode...
+[35m03:08:16 web.7           | [0m[35m=> [0m[21451] * Version 3.6.2 (ruby 2.3.0-p0), codename: Sleepy Sunday Serenity
+[35m03:08:16 web.7           | [0m[35m=> [0m[21451] * Min threads: 1, max threads: 1
+[35m03:08:16 web.7           | [0m[35m=> [0m[21451] * Environment: production
+[35m03:08:16 web.7           | [0m[35m=> [0m[21451] * Process workers: 1
+[35m03:08:16 web.7           | [0m[35m=> [0m[21451] * Preloading application
+[35m03:08:19 web.7           | [0m[35m=> [0m[21451] * Listening on tcp://0.0.0.0:9294
+[35m03:08:19 web.7           | [0m[35m=> [0m[21451] Use Ctrl-C to stop
+[35m03:08:19 web.7           | [0m[35m=> [0m[21451] - Worker 0 (pid: 21458) booted, phase: 0
+[m05:52:44 system          | [0mStopping Procodile supervisor
+[m06:05:21 system          | [0mProcodile supervisor started with PID 3410
+[m06:05:21 system          | [0mReloading configuration
+[m06:05:21 control         | [0mListening at /home/deploy/custore/pids/procodile.sock
+[35m06:05:21 web.1           | [0mStarted with PID 3416
+[35m06:05:53 web.1           | [0m[35m=> [0m[3416] Puma starting in cluster mode...
+[35m06:05:53 web.1           | [0m[35m=> [0m[3416] * Version 3.6.2 (ruby 2.3.0-p0), codename: Sleepy Sunday Serenity
+[35m06:05:53 web.1           | [0m[35m=> [0m[3416] * Min threads: 1, max threads: 1
+[35m06:05:53 web.1           | [0m[35m=> [0m[3416] * Environment: production
+[35m06:05:53 web.1           | [0m[35m=> [0m[3416] * Process workers: 1
+[35m06:05:53 web.1           | [0m[35m=> [0m[3416] * Preloading application
+[35m06:06:58 web.1           | [0m[35m=> [0m[3416] * Listening on tcp://0.0.0.0:9294
+[35m06:06:58 web.1           | [0m[35m=> [0m[3416] Use Ctrl-C to stop
+[35m06:06:58 web.1           | [0m[35m=> [0m[3416] - Worker 0 (pid: 3459) booted, phase: 0
+[m09:43:12 system          | [0mReloading configuration
+[m09:43:12 system          | [0mRestarting all Procodile processes
+[35m09:43:12 web.1           | [0mRestarting using term-start mode
+[35m09:43:12 web.1           | [0mSending TERM to 3416
+[35m09:43:12 web.1           | [0m[35m=> [0m[3416] - Gracefully shutting down workers...
+[35m09:43:12 web.1           | [0m[35m=> [0m[3416] === puma shutdown: 2017-03-11 09:43:12 +0000 ===
+[35m09:43:12 web.1           | [0m[35m=> [0m[3416] - Goodbye!
+[35m09:43:15 web.2           | [0mStarted with PID 6054
+[35m09:43:17 web.2           | [0m[35m=> [0m[6054] Puma starting in cluster mode...
+[35m09:43:17 web.2           | [0m[35m=> [0m[6054] * Version 3.6.2 (ruby 2.3.0-p0), codename: Sleepy Sunday Serenity
+[35m09:43:17 web.2           | [0m[35m=> [0m[6054] * Min threads: 1, max threads: 1
+[35m09:43:17 web.2           | [0m[35m=> [0m[6054] * Environment: production
+[35m09:43:17 web.2           | [0m[35m=> [0m[6054] * Process workers: 1
+[35m09:43:17 web.2           | [0m[35m=> [0m[6054] * Preloading application
+[35m09:43:18 web.1           | [0mRemoved PID file
+[35m09:43:20 web.2           | [0m[35m=> [0m[6054] * Listening on tcp://0.0.0.0:9294
+[35m09:43:20 web.2           | [0m[35m=> [0m[6054] Use Ctrl-C to stop
+[35m09:43:20 web.2           | [0m[35m=> [0m[6054] - Worker 0 (pid: 6060) booted, phase: 0
+[m16:42:56 system          | [0mReloading configuration
+[m16:42:57 system          | [0mRestarting all Procodile processes
+[35m16:42:57 web.2           | [0mRestarting using term-start mode
+[35m16:42:57 web.2           | [0mSending TERM to 6054
+[35m16:42:57 web.2           | [0m[35m=> [0m[6054] - Gracefully shutting down workers...
+[35m16:42:59 web.2           | [0m[35m=> [0m[6054] === puma shutdown: 2017-03-16 16:42:59 +0000 ===
+[35m16:42:59 web.2           | [0m[35m=> [0m[6054] - Goodbye!
+[35m16:43:05 web.3           | [0mStarted with PID 31182
+[35m16:43:06 web.2           | [0mRemoved PID file
+[35m16:43:06 web.3           | [0m[35m=> [0m[31182] Puma starting in cluster mode...
+[35m16:43:06 web.3           | [0m[35m=> [0m[31182] * Version 3.8.2 (ruby 2.3.0-p0), codename: Sassy Salamander
+[35m16:43:06 web.3           | [0m[35m=> [0m[31182] * Min threads: 1, max threads: 1
+[35m16:43:06 web.3           | [0m[35m=> [0m[31182] * Environment: production
+[35m16:43:06 web.3           | [0m[35m=> [0m[31182] * Process workers: 1
+[35m16:43:06 web.3           | [0m[35m=> [0m[31182] * Preloading application
+[35m16:43:09 web.3           | [0m[35m=> [0m[31182] * Listening on tcp://0.0.0.0:9294
+[35m16:43:09 web.3           | [0m[35m=> [0m[31182] Use Ctrl-C to stop
+[35m16:43:09 web.3           | [0m[35m=> [0m[31182] - Worker 0 (pid: 31187) booted, phase: 0
+[m16:50:50 system          | [0mReloading configuration
+[m16:50:50 system          | [0mRestarting all Procodile processes
+[35m16:50:50 web.3           | [0mRestarting using term-start mode
+[35m16:50:50 web.3           | [0mSending TERM to 31182
+[35m16:50:50 web.3           | [0m[35m=> [0m[31182] - Gracefully shutting down workers...
+[35m16:50:50 web.3           | [0m[35m=> [0m[31182] === puma shutdown: 2017-03-16 16:50:50 +0000 ===
+[35m16:50:50 web.3           | [0m[35m=> [0m[31182] - Goodbye!
+[35m16:50:51 web.3           | [0mRemoved PID file
+[35m16:50:51 web.4           | [0mStarted with PID 31427
+[35m16:50:52 web.4           | [0m[35m=> [0m[31427] Puma starting in cluster mode...
+[35m16:50:52 web.4           | [0m[35m=> [0m[31427] * Version 3.8.2 (ruby 2.3.0-p0), codename: Sassy Salamander
+[35m16:50:52 web.4           | [0m[35m=> [0m[31427] * Min threads: 1, max threads: 1
+[35m16:50:52 web.4           | [0m[35m=> [0m[31427] * Environment: production
+[35m16:50:52 web.4           | [0m[35m=> [0m[31427] * Process workers: 1
+[35m16:50:52 web.4           | [0m[35m=> [0m[31427] * Preloading application
+[35m16:50:55 web.4           | [0m[35m=> [0m[31427] * Listening on tcp://0.0.0.0:9294
+[35m16:50:55 web.4           | [0m[35m=> [0m[31427] Use Ctrl-C to stop
+[35m16:50:55 web.4           | [0m[35m=> [0m[31427] - Worker 0 (pid: 31432) booted, phase: 0
+[35m12:09:13 web.4           | [0mProcess has stopped. Respawning...
+/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/instance.rb:118:in `spawn': Cannot allocate memory - bundle (Errno::ENOMEM)
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/instance.rb:118:in `start'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/instance.rb:248:in `check'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/supervisor.rb:126:in `block (2 levels) in supervise'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/supervisor.rb:125:in `each'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/supervisor.rb:125:in `block in supervise'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/supervisor.rb:124:in `each'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/supervisor.rb:124:in `supervise'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/supervisor.rb:43:in `block in start'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/supervisor.rb:43:in `loop'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/supervisor.rb:43:in `start'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/cli.rb:392:in `block in start_supervisor'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/cli.rb:387:in `fork'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/cli.rb:387:in `start_supervisor'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/cli.rb:153:in `start'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/cli.rb:38:in `public_send'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/lib/procodile/cli.rb:38:in `run'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/gems/procodile-1.0.5/bin/procodile:56:in `<top (required)>'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/procodile:23:in `load'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/procodile:23:in `<main>'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+	from /home/ec2-user/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+[m12:15:37 system          | [0mProcodile supervisor started with PID 2744
+[m12:15:37 system          | [0mEnvironment is production
+[m12:15:37 system          | [0mReloading configuration
+[35m12:15:37 web.1           | [0mStarted with PID 2750
+[m12:15:37 control         | [0mListening at /home/deploy/custore/pids/procodile.sock
+[35m12:15:38 web.1           | [0m[35m=> [0m[2750] Puma starting in cluster mode...
+[35m12:15:38 web.1           | [0m[35m=> [0m[2750] * Version 3.8.2 (ruby 2.3.0-p0), codename: Sassy Salamander
+[35m12:15:38 web.1           | [0m[35m=> [0m[2750] * Min threads: 1, max threads: 1
+[35m12:15:38 web.1           | [0m[35m=> [0m[2750] * Environment: production
+[35m12:15:38 web.1           | [0m[35m=> [0m[2750] * Process workers: 1
+[35m12:15:38 web.1           | [0m[35m=> [0m[2750] * Preloading application
+[35m12:15:41 web.1           | [0m[35m=> [0m[2750] * Listening on tcp://0.0.0.0:9294
+[35m12:15:41 web.1           | [0m[35m=> [0m[2750] Use Ctrl-C to stop
+[35m12:15:41 web.1           | [0m[35m=> [0m[2750] - Worker 0 (pid: 2755) booted, phase: 0
+[m18:03:38 system          | [0mReloading configuration
+[m18:03:38 system          | [0mRestarting all Procodile processes
+[35m18:03:38 web.1           | [0mRestarting using term-start mode
+[35m18:03:38 web.1           | [0mSending TERM to 2750
+[35m18:03:38 web.1           | [0m[35m=> [0m[2750] - Gracefully shutting down workers...
+[35m18:03:39 web.1           | [0m[35m=> [0m[2750] === puma shutdown: 2017-04-10 18:03:39 +0000 ===
+[35m18:03:39 web.1           | [0m[35m=> [0m[2750] - Goodbye!
+[35m18:03:42 web.2           | [0mStarted with PID 7454
+[35m18:03:44 web.2           | [0m[35m=> [0m[7454] Puma starting in cluster mode...
+[35m18:03:44 web.2           | [0m[35m=> [0m[7454] * Version 3.8.2 (ruby 2.3.0-p0), codename: Sassy Salamander
+[35m18:03:44 web.2           | [0m[35m=> [0m[7454] * Min threads: 1, max threads: 1
+[35m18:03:44 web.2           | [0m[35m=> [0m[7454] * Environment: production
+[35m18:03:44 web.2           | [0m[35m=> [0m[7454] * Process workers: 1
+[35m18:03:44 web.2           | [0m[35m=> [0m[7454] * Preloading application
+[35m18:03:45 web.1           | [0mRemoved PID file
+[35m18:03:47 web.2           | [0m[35m=> [0m[7454] * Listening on tcp://0.0.0.0:9294
+[35m18:03:47 web.2           | [0m[35m=> [0m[7454] Use Ctrl-C to stop
+[35m18:03:47 web.2           | [0m[35m=> [0m[7454] - Worker 0 (pid: 7461) booted, phase: 0
+[m10:26:30 system          | [0mReloading configuration
+[m10:26:31 system          | [0mRestarting all Procodile processes
+[35m10:26:31 web.2           | [0mRestarting using term-start mode
+[35m10:26:31 web.2           | [0mSending TERM to 7454
+[35m10:26:31 web.2           | [0m[35m=> [0m[7454] - Gracefully shutting down workers...
+[35m10:26:32 web.2           | [0m[35m=> [0m[7454] === puma shutdown: 2017-04-11 10:26:32 +0000 ===
+[35m10:26:32 web.2           | [0m[35m=> [0m[7454] - Goodbye!
+[35m10:26:38 web.3           | [0mStarted with PID 19424
+[35m10:26:39 web.3           | [0m[35m=> [0m[19424] Puma starting in cluster mode...
+[35m10:26:39 web.3           | [0m[35m=> [0m[19424] * Version 3.8.2 (ruby 2.3.0-p0), codename: Sassy Salamander
+[35m10:26:39 web.3           | [0m[35m=> [0m[19424] * Min threads: 1, max threads: 1
+[35m10:26:39 web.3           | [0m[35m=> [0m[19424] * Environment: production
+[35m10:26:39 web.3           | [0m[35m=> [0m[19424] * Process workers: 1
+[35m10:26:39 web.3           | [0m[35m=> [0m[19424] * Preloading application
+[35m10:26:40 web.2           | [0mRemoved PID file
+[35m10:26:43 web.3           | [0m[35m=> [0m[19424] * Listening on tcp://0.0.0.0:9294
+[35m10:26:43 web.3           | [0m[35m=> [0m[19424] Use Ctrl-C to stop
+[35m10:26:43 web.3           | [0m[35m=> [0m[19424] - Worker 0 (pid: 19439) booted, phase: 0
+[m10:29:49 system          | [0mReloading configuration
+[m10:29:49 system          | [0mRestarting all Procodile processes
+[35m10:29:49 web.3           | [0mRestarting using term-start mode
+[35m10:29:49 web.3           | [0mSending TERM to 19424
+[35m10:29:49 web.3           | [0m[35m=> [0m[19424] - Gracefully shutting down workers...
+[35m10:29:49 web.3           | [0m[35m=> [0m[19424] === puma shutdown: 2017-04-11 10:29:49 +0000 ===
+[35m10:29:49 web.3           | [0m[35m=> [0m[19424] - Goodbye!
+[35m10:29:50 web.4           | [0mStarted with PID 19701
+[35m10:29:51 web.4           | [0m[35m=> [0m[19701] Puma starting in cluster mode...
+[35m10:29:51 web.4           | [0m[35m=> [0m[19701] * Version 3.8.2 (ruby 2.3.0-p0), codename: Sassy Salamander
+[35m10:29:51 web.4           | [0m[35m=> [0m[19701] * Min threads: 1, max threads: 1
+[35m10:29:51 web.4           | [0m[35m=> [0m[19701] * Environment: production
+[35m10:29:51 web.4           | [0m[35m=> [0m[19701] * Process workers: 1
+[35m10:29:51 web.4           | [0m[35m=> [0m[19701] * Preloading application
+[35m10:29:52 web.3           | [0mRemoved PID file
+[35m10:29:53 web.4           | [0m[35m=> [0m[19701] * Listening on tcp://0.0.0.0:9294
+[35m10:29:53 web.4           | [0m[35m=> [0m[19701] Use Ctrl-C to stop
+[35m10:29:53 web.4           | [0m[35m=> [0m[19701] - Worker 0 (pid: 19707) booted, phase: 0
+[m10:32:52 system          | [0mReloading configuration
+[m10:32:52 system          | [0mStopping all Procodile processes
+[35m10:32:52 web.4           | [0mSending TERM to 19701
+[35m10:32:52 web.4           | [0m[35m=> [0m[19701] - Gracefully shutting down workers...
+[35m10:32:53 web.4           | [0m[35m=> [0m[19701] === puma shutdown: 2017-04-11 10:32:53 +0000 ===
+[35m10:32:53 web.4           | [0m[35m=> [0m[19701] - Goodbye!
+[35m10:32:55 web.4           | [0mRemoved PID file
+[m10:32:58 system          | [0mReloading configuration
+[35m10:32:58 web.5           | [0mStarted with PID 19823
+[35m10:32:59 web.5           | [0m[35m=> [0m[19823] Puma starting in cluster mode...
+[35m10:32:59 web.5           | [0m[35m=> [0m[19823] * Version 3.8.2 (ruby 2.3.0-p0), codename: Sassy Salamander
+[35m10:32:59 web.5           | [0m[35m=> [0m[19823] * Min threads: 1, max threads: 1
+[35m10:32:59 web.5           | [0m[35m=> [0m[19823] * Environment: production
+[35m10:32:59 web.5           | [0m[35m=> [0m[19823] * Process workers: 1
+[35m10:32:59 web.5           | [0m[35m=> [0m[19823] * Preloading application
+[35m10:33:02 web.5           | [0m[35m=> [0m[19823] * Listening on tcp://0.0.0.0:9294
+[35m10:33:02 web.5           | [0m[35m=> [0m[19823] Use Ctrl-C to stop
+[35m10:33:02 web.5           | [0m[35m=> [0m[19823] - Worker 0 (pid: 19828) booted, phase: 0
+[35m21:28:18 web.5           | [0m[35m=> [0m2017-06-06 21:28:18 +0000: Rack app error handling request { POST / }
+[35m21:28:18 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m21:28:18 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m21:28:19 web.5           | [0m[35m=> [0m2017-06-06 21:28:19 +0000: Rack app error handling request { POST / }
+[35m21:28:19 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m21:28:19 web.5           | [0m[35m=> [0m2017-06-06 21:28:19 +0000: Rack app error handling request { POST /uploadify/uploadify.php }
+[35m21:28:19 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m21:28:19 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m21:28:20 web.5           | [0m[35m=> [0m2017-06-06 21:28:20 +0000: Rack app error handling request { POST /uploadify/uploadify.php }
+[35m21:28:20 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m21:28:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m21:28:21 web.5           | [0m[35m=> [0m2017-06-06 21:28:21 +0000: Rack app error handling request { POST /wp-admin/admin-ajax.php }
+[35m21:28:21 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m21:28:21 web.5           | [0m[35m=> [0m2017-06-06 21:28:21 +0000: Rack app error handling request { POST /wp-admin/admin-ajax.php }
+[35m21:28:21 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m21:28:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m21:28:22 web.5           | [0m[35m=> [0m2017-06-06 21:28:22 +0000: Rack app error handling request { POST /license.php }
+[35m21:28:22 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m21:28:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m21:28:23 web.5           | [0m[35m=> [0m2017-06-06 21:28:23 +0000: Rack app error handling request { POST /license.php }
+[35m21:28:23 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m21:28:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m07:19:09 web.5           | [0m[35m=> [0m2017-07-01 07:19:09 +0000: Rack app error handling request { POST / }
+[35m07:19:09 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m07:19:09 web.5           | [0m[35m=> [0m2017-07-01 07:19:09 +0000: Rack app error handling request { POST / }
+[35m07:19:09 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m07:19:09 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m07:19:10 web.5           | [0m[35m=> [0m2017-07-01 07:19:10 +0000: Rack app error handling request { POST /uploadify/uploadify.php }
+[35m07:19:10 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m07:19:10 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m07:19:11 web.5           | [0m[35m=> [0m2017-07-01 07:19:11 +0000: Rack app error handling request { POST /uploadify/uploadify.php }
+[35m07:19:11 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m07:19:11 web.5           | [0m[35m=> [0m2017-07-01 07:19:11 +0000: Rack app error handling request { POST /wp-admin/admin-ajax.php }
+[35m07:19:11 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m07:19:11 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m07:19:12 web.5           | [0m[35m=> [0m2017-07-01 07:19:12 +0000: Rack app error handling request { POST /wp-admin/admin-ajax.php }
+[35m07:19:12 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m07:19:12 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m07:19:13 web.5           | [0m[35m=> [0m2017-07-01 07:19:13 +0000: Rack app error handling request { POST /license.php }
+[35m07:19:13 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m07:19:13 web.5           | [0m[35m=> [0m2017-07-01 07:19:13 +0000: Rack app error handling request { POST /license.php }
+[35m07:19:13 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m07:19:13 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m22:27:21 web.5           | [0m[35m=> [0m2017-07-02 22:27:21 +0000: Rack app error handling request { POST / }
+[35m22:27:21 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m22:27:21 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m22:27:24 web.5           | [0m[35m=> [0m2017-07-02 22:27:24 +0000: Rack app error handling request { POST /uploadify/uploadify.php }
+[35m22:27:24 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m22:27:24 web.5           | [0m[35m=> [0m2017-07-02 22:27:24 +0000: Rack app error handling request { POST /wp-admin/admin-ajax.php }
+[35m22:27:24 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m22:27:24 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m22:27:25 web.5           | [0m[35m=> [0m2017-07-02 22:27:25 +0000: Rack app error handling request { POST /license.php }
+[35m22:27:25 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m22:27:25 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m06:39:20 web.5           | [0m[35m=> [0m2017-07-18 06:39:20 +0000: Rack app error handling request { POST / }
+[35m06:39:20 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m06:39:20 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m06:39:22 web.5           | [0m[35m=> [0m2017-07-18 06:39:22 +0000: Rack app error handling request { POST /uploadify/uploadify.php }
+[35m06:39:22 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m06:39:22 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m06:39:23 web.5           | [0m[35m=> [0m2017-07-18 06:39:23 +0000: Rack app error handling request { POST /wp-admin/admin-ajax.php }
+[35m06:39:23 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[35m06:39:23 web.5           | [0m[35m=> [0m2017-07-18 06:39:23 +0000: Rack app error handling request { POST /license.php }
+[35m06:39:23 web.5           | [0m[35m=> [0m#<EOFError: bad content body>
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:148:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:59:in `block in parse'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `loop'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart/parser.rb:56:in `parse'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/multipart.rb:25:in `parse_multipart'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:375:in `parse_multipart'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/request.rb:207:in `POST'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:39:in `method_override_param'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:27:in `method_override'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/methodoverride.rb:15:in `call'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/runtime.rb:18:in `call'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/rack-1.6.5/lib/rack/sendfile.rb:113:in `call'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/configuration.rb:224:in `call'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:600:in `handle_request'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:435:in `process_client'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/server.rb:299:in `block in run'
+[35m06:39:23 web.5           | [0m[35m=> [0m/home/ec2-user/.rvm/gems/ruby-2.3.0/gems/puma-3.8.2/lib/puma/thread_pool.rb:120:in `block in spawn_thread'

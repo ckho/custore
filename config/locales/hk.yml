@@ -1,0 +1,50 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+hk:
+  form:
+    name: "姓名"
+    name_placeholder: ""
+    mobile: "聯絡電話"
+    mobile_placeholder: ""
+    email: "電郵"
+    email_placeholder: ""
+    college: "書院"
+    college_placeholder: ""
+    cu_resident: "你...."
+    cu_resident_true: "是住在中大的"
+    cu_resident_false: "不是住在中大的"
+    other: "其他事項/意見"
+    other_placeholder: "e.g. 你想買多過5個單位的東西 / 想讚下我地 / 想同我地傾嘰 / 想同我地講任何野!"
+    product_suggestion: "希望山城士多增加什麼類型的貨品?"
+    product_suggestion_placeholder: ""
+    promotion_optin: "希望日後收到山城士多的最新資訊嗎? "
+    promotion_optin_explanation: "利申 一定唔會spam爆你mail box 哈哈 我地邊有咁得閒"
+    promotion_optin_true: "希望"
+    promotion_optin_false: "不希望"
+    out_of_stock: "售罄"
+    submit: "提交"
+    error_out_of_stock: "對唔住呀 你打算買既野有D已經賣晒啦 返去上一頁再揀過啦"
+    success: "感謝參與共購，已收到你的訂單"
+    success_msg_html: "請把訂購的總數款項於限期前(1)交到山城角樂（素食餐廳旁），或是<br><br>(2)過到以下戶口 <br> < 恒生290-872795-668 (Chan Ho Ching & Cheung Lung) > <br> 並必須將入數紙 email到cuhk.buy@gmail.com , 謝謝！"
+
+  email:
+    subject: "【山城士多】 訂貨確認"

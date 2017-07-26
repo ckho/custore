@@ -1,0 +1,52 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  form:
+    name: "Full name"
+    name_placeholder: ""
+    mobile: "Contact number"
+    mobile_placeholder: "Foreign number is also OK as long as we can find you through WhatsApp."
+    email: "Email address"
+    email_placeholder: "Please make sure it is correct as we will send you a confirmation message."
+    college: "Affiliated college"
+    college_placeholder: ""
+    cu_resident: "Do you..."
+    cu_resident_true: "live on campus?"
+    cu_resident_false: "live outside campus?"
+    origin: "Where are you from?"
+    origin_placeholder: "Just curious :p"
+    other: "Other issues"
+    other_placeholder: "If you want to buy more than 5 units of a product or tell us anything."
+    product_suggestion: "Any suggestion for new products?"
+    product_suggestion_placeholder: ""
+    promotion_optin: "Do you wish to receive news about our store through email? "
+    promotion_optin_explanation: "Don’t worry we won’t spam you… or will we?"
+    promotion_optin_true: "Yes"
+    promotion_optin_false: "No"
+    out_of_stock: "Out of Stock"
+    submit: "Submit"
+    error_out_of_stock: "Sorry. Some of the products you wanna order are out of stock. Please go back and re-submit."
+    success: "Thank you for your order! Your order is well received."
+    success_msg_html: "<p>Please deposit the amount payable to Hang Seng Bank account 290-872795-668 (Chan Ho Ching & Cheung Lung) before the time stated on the order form and send us a picture of the transaction advice slip through email(cuhk.buy@gmail.com).</p><p>[Important] If your cannot transfer money from your bank account please deposit the amount payable by cash at a counter in Hang Seng Bank (there is a branch on campus in the John Fulton Centre). No service charge will be levied. You might be asked to provide the account holders' names (Chan Ho Ching & Cheung Lung) so please note them down. Please remember to obtain the transaction advice afterwards.</p><p>If you do not receive a confirmation email after ordering, please let us know so that we can sort it out.</p>"
+
+  email:
+    subject: "【 CUStore 】 Order confirmation"

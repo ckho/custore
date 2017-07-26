@@ -1,0 +1,61 @@
+<% if I18n.locale == :en -%>
+Dear <%= @params[:name] -%> <br>
+
+Your order from CUStore has been received. Thank you for supporting local products and our store.
+We would like to confirm with you the details of your order.
+
+<% for producer in @producers.asc(:display_order).each -%>
+<% for product in producer.products.asc(:display_order).each -%>
+<% if @params[product.id.to_sym].to_i > 0 -%>
+[<%= ActionView::Base.full_sanitizer.sanitize(product.name) %> <%= number_to_currency(product.price) %><% if product.unit != "" %> / <%= product.unit %><% end %><% if product.in_bracket != "" %> (<%= product.in_bracket %>)<% end %>] x <%= @params[product.id.to_sym] %>
+<% end -%>
+<% end -%>
+<% end -%>
+
+Grand total: <%= number_to_currency(@total) %>
+
+Please deposit the amount payable to Hang Seng Bank account 290-872795-668 (Chan Ho Ching and Cheung Lung) before 23:59pm on 14/4/2017 (Friday). If you transfer through an ATM, please print the transaction advice slip and send us a picture through email or Facebook. If you forget to print the advice or transfer through e-banking, please send us a screenshot of the transaction record.
+Email: cuhk.buy@gmail.com
+
+The ordered items will be available for collection on 19/4/2017 (Wednesday) from 12 noon to 6 p.m in the CU Happy Corner, LG/F, John Fulton Centre. It is beside the swimming pool and next to the snack bar. If you are not free please ask someone to collect on your behalf as we will not retain uncollected items.
+
+Should you have any queries, please do not hesitate to contact us.
+
+Thank you once again for your support!
+
+Best wishes,
+CUStore
+<% else -%>
+親愛的 <%= @params[:name] -%>,：
+
+我們已經收到你在山城士多的訂單，謝謝支持。請核對以下的訂購項目及款項：
+
+<% for producer in @producers.asc(:display_order).each -%>
+<% for product in producer.products.asc(:display_order).each -%>
+<% if @params[product.id.to_sym].to_i > 0 -%>
+[<%= ActionView::Base.full_sanitizer.sanitize(product.name) %> <%= number_to_currency(product.price) %><% if product.unit != "" %> / <%= product.unit %><% end %><% if product.in_bracket != "" %> (<%= product.in_bracket %>)<% end %>] x <%= @params[product.id.to_sym] %>
+<% end -%>
+<% end -%>
+<% end -%>
+
+總價錢：<%= number_to_currency(@total) %>
+
+如無問題的話，請按照以下步驟付款：
+------------
+方法一 銀行過數：
+【付費】把訂購的總數款項過到以下戶口 : 
+290-872795-668 恒生(Chan Ho Ching and Cheung Lung) 
+【入數紙】在14/4/2017 23:59前(特別注明之產品除外)把入數紙send email到 cuhk.buy@gmail.com
+
+方法二 山城角樂付款：
+【付款】在14/4/2017前到山城角樂付現金，保存收據（不設找續！不設找續！）
+-------------
+【取貨】在19/4/2017 (三)  12時至6時 在 山城角樂(素食餐廳旁)
+
+如有任何問題，歡迎回覆此 E-mail 或 Facebook Inbox 我們！
+
+再次感謝你對山城士多的支持，更重要的是謝謝你願意認識和支持香港小店！
+
+    祝生活愉快！
+山城士多上
+<% end -%>

@@ -1,0 +1,45 @@
+
+<h1> WS_Orders <%= @ws_orders.num_rows %> x <%= @ws_orders.num_cols %> </h1>
+<table>
+<% (1..@ws_orders.num_rows).each do |row| %>
+  <tr>
+  <% (1..@ws_orders.num_cols).each do |col| %>
+    <td><%= @ws_orders[row, col] %></td>
+  <% end %>
+  </tr>
+<% end %>
+</table>
+
+<h1> WS_Products <%= @ws_products.num_rows %> x <%= @ws_products.num_cols %> </h1>
+<table>
+<% (2..@ws_products.num_rows).each do |row| %>
+  <tr>
+    <td><%= @ws_products[row, 7].delete( "HK$" ).to_f %></td>
+  <% (1..@ws_products.num_cols).each do |col| %>
+    <td><%= @ws_products[row, col] %></td>
+	<% end %>
+  </tr>
+<% end %>
+</table>
+
+<h1> WS_Producers <%= @ws_producers.num_rows %> x <%= @ws_producers.num_cols %> </h1>
+<table>
+<% (1..@ws_producers.num_rows).each do |row| %>
+  <tr>
+  <% (1..@ws_producers.num_cols).each do |col| %>
+    <td><%= @ws_producers[row, col] %></td>
+  <% end %>
+  </tr>
+<% end %>
+</table>
+
+<h1> WS_Options <%= @ws_options.num_rows %> x <%= @ws_options.num_cols %> </h1>
+<table>
+<% (1..@ws_options.num_rows).each do |row| %>
+  <tr>
+  <% (1..@ws_options.num_cols).each do |col| %>
+    <td><%= @ws_options[row, col] %></td>
+  <% end %>
+  </tr>
+<% end %>
+</table>
